@@ -8,7 +8,7 @@ const graphQLOptions = {
 
   // Set the path for the GraphQL playground
   // This option can be removed to disable the playground route
-  playgroundEndpoint: '/___graphql',
+  playgroundEndpoint: 'graphql-on-workers.siran.com/___graphql',
 
   // When a request's path isn't matched, forward it to the origin
   forwardUnmatchedRequestsToOrigin: false,
